@@ -1,0 +1,15 @@
+{
+  "@context": ["https://www.w3.org/ns/did/v1"],
+  "id": "did:web:ali.cb.id",
+  "verificationMethod": [
+    {
+      "id": "did:web:ali.cb.id#owner",
+      "type": "EcdsaSecp256k1RecoveryMethod2020",
+      "controller": "did:web:ali.cb.id",
+      "blockchainAccountId": "eip155:8453:0xB45A7510EaaD1Ef02CFaD55C67c0EA084CDD40d2"
+    }
+  ],
+  "authentication": ["did:web:ali.cb.id#owner"],
+  "assertionMethod": ["did:web:ali.cb.id#owner"]
+}
+
