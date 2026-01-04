@@ -1,5 +1,5 @@
 {
-  "@context": "https://www.w3.org/ns/did/v1",
+  "@context": ["https://www.w3.org/ns/did/v1"],
   "id": "did:web:alialkhtri3-png.github.io:web3-id",
   "verificationMethod": [
     {
@@ -17,30 +17,3 @@
   ]
 }
 
-<<<<<<< HEAD
-git add .well-known/did.json
-git commit -m "Update DID Web document"
-git push origin main
-
-=======
-{
-"@context": [
-"https://www.w3.org/ns/did/v1"
-],
-"id": "did:web:alialkhtri3-png.github.io:web3-id",
-"verificationMethod": [
-{
-"id": "did:web:alialkhtri3-png.github.io:web3-id#owner",
-"type": "EcdsaSecp256k1RecoveryMethod2020",
-"controller": "did:web:alialkhtri3-png.github.io:web3-id",
-"blockchainAccountId": "eip155:8453:0xB45A7510EaaD1Ef02CFaD55C67c0EA084CDD40d2"
-}
-],
-"authentication": [
-"did:web:alialkhtri3-png.github.io:web3-id#owner"
-],
-"assertionMethod": [
-"did:web:alialkhtri3-png.github.io:web3-id#owner"
-]
-}
->>>>>>> 7f8971bf42255bc554ccd73a363d5ec292896b5c
