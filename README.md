@@ -1,3 +1,4 @@
+هو
 # web3-id
 Web3 Identity Page صفحة هوية رقمية لامركزية (Web3) تعرض عنوان المحفظة، رابط cb.id، رمز QR، ومعلومات أساسية للتحقق والمشاركة على شبكة Base.
 # Web3 Identity — ali.cb.id
@@ -270,3 +271,9 @@ Quick verification via QR
   "createdAt": "2026-01-04T00:00:00Z"
 }
 Add proof.json
+## Fix WalletConnect localhost issue
+Problem:
+WalletConnect does not connect on localhost.
+
+Solution:
+Use local IP or deploy to test server.
